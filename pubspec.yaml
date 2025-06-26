@@ -44,15 +44,33 @@ dev_dependencies:
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-  flutter_lints: ^5.0.0
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  # Per le chiamate di rete (più potente di http)
+  dio: ^5.4.3+1
+
+  # Per la selezione dei file dal dispositivo
+  file_picker: ^8.0.3
+
+  # Per la gestione dello stato (semplice e potente)
+  provider: ^6.1.2
+
+  # Per icone aggiuntive (es. per lo stato delle clausole)
+  font_awesome_flutter: ^10.7.0
+
+  # Per visualizzare le differenze tra testi (Side-by-side diff)
+  pretty_diff_text: ^2.1.0
   http: ^1.4.0
-  file_picker: ^10.1.9
-  json_annotation: ^4.9.0
-  provider: ^6.1.1
-    # -- Opzionale, per PDF con annotazioni (licenza community gratuita ≤ 5 sviluppatori)
-  syncfusion_flutter_pdfviewer: ^24.2.4
-    # Per scroll preciso a riga
-  scrollable_positioned_list: ^0.3.8
+
+  # Per la formattazione delle date
+  intl: ^0.19.0
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.1.0
+  material_symbols_icons: ^4.2815.1  # icone Material Symbols (outline)
+  dotted_border: ^2.1.0 # Use the latest version available
+
+
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
